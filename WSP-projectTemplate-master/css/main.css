@@ -9,14 +9,25 @@ html{
     text-decoration: none;
     vertical-align: baseline;
     box-sizing: border-box;
+    background-color: #252525;
+
+
 }
 body {
-    background-color: #25;
-    margin: 0%;
+
     font: 1.6em/1.4 sans-serif;
     color: #999;
     font-weight: 100;
     display: block;
+    max-width: 960px;
+    margin: 0 auto;
+    background-color: #303030;
+    padding: 2%;
+
+
+
+
+
 
 }
 h1 {
@@ -35,6 +46,7 @@ header, section, footer {
     box-sizing: border-box;
     width: 100%;
     margin: 0 auto;
+    padding: 2%;
 }
 
 
@@ -57,9 +69,8 @@ article {
     position: relative;
     margin-bottom: 3rem;
     padding: 3rem;
-    background-color: #fa;
+    background-color: aliceblue;
     clear: left;
-
 }
 h2{
     font-size: 1.5em;
@@ -68,6 +79,7 @@ h2{
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
     font-weight: bold;
+
 }
 h3{
     font-size: 1.25em;
@@ -113,5 +125,31 @@ ol li::before {
     margin-right: 1rem;
     padding: 0 0.5rem;
     border-right: solid 1px rgba(0,0,0,0.1);
-    color: rgba(0,0,0,0.35);
+    color: black;
+}
+
+#featured {
+    background-color: #fabe0a;
+    color: black;
+}
+.buttons {
+    margin: 1rem;
+}
+.buttons li{
+    position: relative;
+    list-style-type: none;
+    display: inline-block;
+}
+.buttons a{
+    position: relative;
+    display: block;
+    padding: 1rem;
+    background: #cccccc;
+    color: #303030;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.buttons a:hover {
+    background-color: #999999;
 }
