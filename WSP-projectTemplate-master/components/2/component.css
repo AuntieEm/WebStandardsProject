@@ -1,3 +1,72 @@
-/* Component Stylesheet 1
+/* Component Stylesheet 2
 ============================================================
 ============================================================*/
+html{
+
+    font-family: Arial, sans-serif;
+    font-size: 100%;
+    display: block;
+    text-decoration: none;
+    vertical-align: baseline;
+    box-sizing: border-box;
+    background-color: #252525;
+    color: #dfdfdf;
+
+
+}
+
+h2 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 4rem;
+    text-align: center;
+    display: block;
+    -webkit-margin-before: 0.85em;
+    -webkit-margin-after: 0.85em;
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+}
+
+
+h3{
+    font-size: 1.5em;
+    margin: 0 0 1 rem 0;
+    color: #999999;
+    text-transform: uppercase;
+    -webkit-margin-before: 0.95em;
+    -webkit-margin-after: 0.95em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: 700;
+}
+
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+@media (min-width: 1000px) {
+    li{
+        width: calc(100% / 3);
+    }
+}
+@media (min-width: 750px){
+    li{
+        width: 50%;
+        float: left;
+        padding: 4rem 2rem 2rem 7rem;
+        text-align: left;
+    }
+}
+
+li {
+    position: relative;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 5rem;
+}
