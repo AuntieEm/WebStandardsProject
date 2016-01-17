@@ -2,7 +2,7 @@
 ============================================================
 ============================================================*/
 
-html{
+html {
 
     font-family: Arial, sans-serif;
     font-size: 100%;
@@ -10,19 +10,19 @@ html{
     text-decoration: none;
     vertical-align: baseline;
     box-sizing: border-box;
-    background-color: #252525;
 
 
 }
+
 body {
 
     font: 1.6em/1.4 sans-serif;
     color: #999;
     font-weight: 100;
     display: block;
-    max-width: 960px;
+
     margin: 0 auto;
-    background-color: #303030;
+    background-color: #999999;
     padding: 2%;
 }
 h1 {
@@ -51,16 +51,74 @@ h3{
     font-weight: bold;
 }
 
-img {
-    height: auto;
-    max-width: 100%;
-    padding: 2%;
-}
 
-header, section, footer {
+footer {
     position: relative;
     box-sizing: border-box;
-    width: 100%;
     margin: 0 auto;
-    padding: 2%;
+    padding: 5rem;
+    width: 100%;
+    text-align: center;
 }
+footer p:first-child{
+    position: absolute;
+    top: -3rem;
+    right: 5rem;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+footer p:first-child a {
+    display: block;
+    width: 7rem;
+    height: 3rem;
+    background: url('../../images/arrow.png') no-repeat center 0.75rem;
+    text-indent: -9999px;
+    opacity: 0.3;
+}
+footer a {
+    color: inherit;
+}
+@media (min-width: 650px;){
+    #email{
+    background: url('../../images/envelope.png') no-repeat center center;
+    background-size: 2rem;
+}
+    #phone {
+        background: url('../../images/phone.png') no-repeat center center;
+    }
+    #address {
+        background: url('../../images/address.png') no-repeat center center;
+    }
+    dt{
+        width: 2rem;
+        height: 2rem;
+        margin: 0 1 rem 0 4rem;
+        text-indent: -9999px;
+        opacity: 0.5;
+    }
+    dt, dd {
+        display: inline-block;
+    }
+}
+
+/** {*/
+    /*margin: 0;*/
+/*}*/
+/*html, body {*/
+    /*height: 100%;*/
+/*}*/
+/*.page-wrap {*/
+    /*min-height: 100%;*/
+    /*margin-bottom: -142px;*/
+/*}*/
+/*.page-wrap:after {*/
+    /*content: "";*/
+    /*display: block;*/
+/*}*/
+/*.site-footer, .page-wrap:after {*/
+    /*height: 142px;*/
+/*}*/
+.site-footer {
+    background: aliceblue;
+}
+
