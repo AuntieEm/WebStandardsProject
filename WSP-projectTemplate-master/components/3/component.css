@@ -11,6 +11,8 @@ html{
     box-sizing: border-box;
     background-color: #252525;
     color: #dfdfdf;
+    max-width: 960px;
+    margin: 0 auto;
 
 
 }
@@ -49,24 +51,20 @@ p {
     -webkit-margin-end: 0px;
 }
 
-
-@media (min-width: 1000px) {
-    li{
-        width: calc(100% / 3);
-    }
-}
-@media (min-width: 750px){
-    li{
-        width: 50%;
-        float: left;
-        padding: 4rem 2rem 2rem 7rem;
-        text-align: left;
-    }
-}
-
 li {
-    position: relative;
-    list-style-type: none;
-    text-align: center;
-    margin-bottom: 5rem;
+        width: 25%;
+        float: left;
+        padding: 1rem;
+        position: relative;
+        list-style-type: none;
+        text-align: center;
+    }
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+#zeus {
+
 }
