@@ -51,7 +51,28 @@ p {
     -webkit-margin-end: 0px;
 }
 
-li {
+@media (min-width: 480px){
+    li {
+        width: 100%;
+        float: left;
+        padding: 1rem;
+        position: relative;
+        list-style-type: none;
+        text-align: center;
+    }
+}
+@media (min-width: 720px) {
+    li {
+        width: 50%;
+        float: left;
+        padding: 1rem;
+        position: relative;
+        list-style-type: none;
+        text-align: center;
+    }
+}
+@media (min-width: 960px){
+    li {
         width: 25%;
         float: left;
         padding: 1rem;
@@ -59,12 +80,80 @@ li {
         list-style-type: none;
         text-align: center;
     }
+}
+
 img {
     vertical-align: middle;
     max-width: 100%;
     height: auto;
     border: 0;
 }
-#zeus {
 
+.circle-wrap {
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+}
+.circle-wrap img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.circle {
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.circle-wrap {
+    position: relative;
+}
+.circle-wrap img:hover {
+    position: absolute;
+    width: 12rem;
+    height: 12rem;
+    bottom: 0;
+    left: 0;
+}
+#zeus .bg-info {
+    background: #7ce5f3;
+}
+#zeus .bg-info:hover {
+    border: 5px solid #7ce5f3;
+    padding: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba (0,0,0);
+}
+
+#charmel .bg-info {
+    background: #f49166;
+}
+#charmel .bg-info:hover {
+    border: 5px solid #f49166;
+    padding: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba (0,0,0);
+}
+
+#phill .bg-info {
+    background: #f9cc7f;
+}
+#phill .bg-info:hover {
+    border: 3px solid #f9cc7f;
+    padding: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba (0,0,0);
+}
+#zolly .bg-info {
+    background: #77e1a4;
+}
+#zolly .bg-info:hover {
+    border: 3px solid #77e1a4;
+    padding: 2rem;
+    border-radius: 50%;
+    display: inline-block;
+    background: rgba (0,0,0);
 }
