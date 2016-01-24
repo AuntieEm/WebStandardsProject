@@ -11,12 +11,26 @@
 <body>
 
 	<!-- Component -->
-    <section>
-        <div class="search">
-            <input name="search" type="text" id="search" onfocus="this.value=''; this.onfocus=null;" value="Search...">
-            <button>Go</button>
+    <header class="indent">
+        <div class="clearfix">
+            <div class="js-search flt__l flt__n-xl active">
+                <div class="toggle">
+                    <h1 class="navbar-brand navbar-bran_">
+                        <a href="#"><img src="logo.png" alt="logo"></a>
+                    </h1>
+
+                </div>
+            </div>
+            <form id="search" class="search-form" action="search.php" method="GET" accept-charset="utf-8">
+                <label class="input" for="in">
+                    <input id="in" type="text" name="s" value="Search" onblur="if(this.value == '') { this.value='Search'}" onfocus="if (this.value == 'Search') {this.value=''}">
+                    <a href="#" onclick="document.getElementById('search').submit()" class="js-find"></a>
+                </label>
+            </form>
         </div>
-    </section>
+
+    </header>
+
 	<!-- End Component -->
 	
 </body>
