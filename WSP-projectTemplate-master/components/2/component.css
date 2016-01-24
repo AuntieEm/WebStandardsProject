@@ -21,45 +21,7 @@ header.indent {
     left: 0;
     width: 100%;
 }
-h1 {
-    display: block;
-    font-size: 36px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-.navbar-brand {
-    float: left;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
-}
-h1.navbar-brand_ {
-    margin: 0;
-    padding: 0;
-    float: left;
-    height: auto;
-    position: relative;
-    top: 0;
-    z-index: 10;
-}
-h1.navbar-brand_ a{
-    display: inline-block;
-}
-a {
-    text-decoration: none;
-    color: #428bca;
-    background: transparent;
-}
 
-.clearfix:before {
-    content: " ";
-    display: table;
-}
-*:before, *:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
 form {
     display: block;
     margin-top: 0em;
@@ -132,7 +94,6 @@ label {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    border: none;
     margin: 0;
     width: 100%;
     border: 1px solid #ffffff;
