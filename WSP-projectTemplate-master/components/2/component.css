@@ -1,5 +1,104 @@
 /* Component Stylesheet 2
 ============================================================
 ============================================================*/
+body {
+    color: #999999;
+    font: 400 16px/30px "Open Sans", sans-serif;
+    line-height: 1;
+    margin: 0 auto;
+    display: block;
+
+}
+.header {
+    position: relative;
+    background: #333333;
+    color: #ffffff;
+    display: block;
+}
+.container {
+    width: 1170px;
+    height: 125px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
+.row {
+    margin-left: -30px;
+}
+.grid_12 {
+    width: 100%;
+
+}
+.header_cnt{
+    padding: 30px 0 34px;
+    display: block;
+    height: auto;
+}
+.brand {
+    display: inline-block;
+    float: left;
+    padding: 31px 0 0 47px;
+    background-position: left bottom 2px;
+}
+
+img {
+    height: 2rem;
+    display: inline-block;
+}
+.header h1 {
+    color: #f4f4f6;
 
 
+}
+h1 {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    display: inline;
+}
+a {
+    font: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+.search-form {
+    position: relative;
+    display: inline-block;
+    float: right;
+    max-width: 370px;
+    width: 100%;
+    margin-top: 2px;
+}
+
+label {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+    cursor: default;
+}
+.search-form ._input {
+    height: inherit;
+    color: inherit;
+    font: inherit;
+    line-height: inherit;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    -webkit-appearance: none;
+    border-radius: 0;
+    vertical-align: baseline;
+    box-shadow: none;
+    display: inline-block;
+    max-width: 330px;
+    width: 100%;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    border-bottom: 3px solid #424242;
+    transition: 0.3s border-color ease;
+}
