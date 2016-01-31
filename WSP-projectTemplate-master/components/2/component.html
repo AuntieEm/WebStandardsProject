@@ -11,26 +11,28 @@
 <body>
 
 	<!-- Component -->
-    <header class="indent">
-        <div class="clearfix">
-            <div class="js-search flt__l flt__n-xl active">
-                <div class="toggle">
-                    <h1 class="navbar-brand navbar-bran_">
-                        <a href="#"><img src="logo.png" alt="logo"></a>
-                    </h1>
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="grid_12">
+                    <div class="header_cnt">
+                        <div class="brand">
+                            <h1><a href="#">About dogs</a></h1>
+                        </div><!--closes brand-->
+                        <form id="search" class="search-form" action="search/search.php" method="GET" accept-charset="utf-8">
+                            <label class="input" for="i1">
+                                <input id="i1" class="_input" type="text" name="s" value="Search"
+                                       onblur="if(this.value == '') { this.value='Search'}"
+                                       onfocus="if (this.value == 'Search') {this.value=''}">
+                            </label>
+                            <a class="submit fa fa-search" onclick="document.getElementById('search').submit()"><img src="../../images/search_white_icon.png"</a>
 
-                </div>
-            </div>
-            <form id="search" class="search-form" action="search.php" method="GET" accept-charset="utf-8">
-                <label class="input" for="in">
-                    <input id="in" type="text" name="s" value="Search" onblur="if(this.value == '') { this.value='Search'}" onfocus="if (this.value == 'Search') {this.value=''}">
-                    <a href="#" onclick="document.getElementById('search').submit()" class="js-find"></a>
-                </label>
-            </form>
-        </div>
-
+                        </form>
+                    </div><!--closes header_cnt-->
+                </div><!--closes grid_12-->
+            </div><!--closes row-->
+        </div><!--closes container-->
     </header>
-
 	<!-- End Component -->
 	
 </body>
