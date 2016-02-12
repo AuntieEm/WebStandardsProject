@@ -1,0 +1,110 @@
+/*Emily Davis*/
+/*February 7, 2016*/
+/*Main Syle Sheet*/
+
+/*light grey:  #DFE3E8*/
+/*medium grey: #CCCFD9*/
+/*light purple: #A69EBC*/
+/*medium purple: #897697*/
+/*dark purple: #3F4360*/
+/*cream: #EAEBDE*/
+
+html {
+    max-width: 960px;
+    margin: 0 auto;
+    text-decoration: none;
+    font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #EAEBDE;
+    color: #3F4360;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+h2 {
+    font-weight: 800;
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 2rem;
+    padding: .5rem 0;
+}
+
+h4 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    padding: .5rem 0;
+}
+
+p {
+    font-weight: 100;
+    font-size: 1rem;
+}
+article p {
+    color: #DFE3E8;
+}
+article h4 {
+    color: #CCCFD9;
+}
+body {
+    background-color: #DFE3E8;
+    padding: 2rem;
+}
+header {
+    background-color: #3F4360;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    color: #DFE3E8;
+}
+section {
+    background-color: #A69EBC;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+section:nth-child(n) {
+    background-color: #CCCFD9;
+}
+article {
+    background-color: #897697;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.featured{
+    border: .5rem solid #EAEBDE;
+}
+
+li {
+    list-style-type: none;
+    padding: .5rem;
+    margin: .25rem;
+    background-color: #CCCFD9;
+}
+li:nth-child(even) {
+    background-color: #DFE3E8;
+}
+
+a {
+    background-color: #EAEBDE;
+    padding: 1rem;
+    margin-top: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    font-weight: 700;
+    color: #3F4360;
+}
+a:hover {
+    background-color: #3F4360;
+    color: #EAEBDE;
+}
+img {
+    max-width: 100%;
+}
