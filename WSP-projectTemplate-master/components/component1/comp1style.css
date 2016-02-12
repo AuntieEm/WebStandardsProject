@@ -1,3 +1,88 @@
 /*Emily Davis*/
-/*February 7, 2016*/
+/*February 12, 2016*/
 /*Component 1 Style Sheet*/
+body {
+    font: 400 "Merriweather", serif;
+    color: #3d3d3d;
+}
+header {
+    display: inline;
+
+}
+h1 {
+    float: left;
+    padding: 0 2rem;
+    border: #3d3d3d solid .2rem;
+    font-family: "Cookie", cursive;
+    line-height: 60px;
+
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    padding: 0 2rem;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+}
+
+nav ul ul {
+    display: none;
+    background:
+    padding: 0;
+    position: absolute;
+    top: 100%;
+}
+nav ul li:hover > ul {
+    display: block;
+}
+nav ul ul li{
+    float: none;
+    position: relative;
+}
+nav ul ul li a {
+    padding: 1rem 1.5rem;
+    color: #fff;
+    background: #494949;
+    text-transform: capitalize;
+}
+nav ul ul li a:hover {
+    background: #b0b0b0;
+    color: #3d3d3d;
+    text-decoration: none;
+}
+nav ul li{
+    float: left;
+}
+nav ul ul ul {
+    position: absolute;
+    left: 100%;
+    top:0;
+}
+nav ul li a:hover{
+    color: #f7941d;
+    text-decoration: underline;
+}
+
+nav ul li a {
+    display: block;
+    padding: 1.5rem 2rem;
+    text-decoration: none;
+}
+
+nav > ul {
+    text-transform: uppercase;
+}
+nav > ul > ul {
+    text-transform: capitalize;
+}
+a {
+    color: #313131;
+}
+.active a{
+    color: #f7941d;
+    text-decoration: underline;
+}
