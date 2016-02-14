@@ -1,3 +1,45 @@
 /*Emily Davis*/
 /*February 7, 2016*/
 /*Component 2 Style Sheet*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background: #f2f2f2;
+}
+header {
+    display: inline;
+}
+h1{
+    float: left;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+img {
+    height: 4rem;
+}
+form {
+    float: right;
+    padding: 2rem;
+    height: 4rem;
+}
+input {
+    width: 20rem;
+    color: #82938b;
+    font-size: 1rem;
+    float: left;
+    border-color: #f1f1f1;
+    background-color: #fff;
+    border-right: none;
+    padding: 1rem;
+}
+button {
+    float: right;
+    background: url(../../images/search.png) no-repeat center center;
+    height: 3.5rem;
+    width: 3.5rem;
+    border: none;
+
+}
