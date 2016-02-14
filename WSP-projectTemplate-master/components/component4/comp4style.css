@@ -1,3 +1,56 @@
 /*Emily Davis*/
 /*February 7, 2016*/
 /*Component 4 Style Sheet*/
+
+html {
+    max-width: 1600px;
+    margin: 0 auto;
+    color: #8a95a1;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2 {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+section {
+    width: 100%;
+    background-color: #3f5163;
+    padding: 2rem;
+    text-align: center;
+}
+
+div{
+    display: inline-block;
+    text-align: left;
+    padding: 0 1rem;
+}
+@media (max-width: 1600px) {
+    div {
+        width: 20%;
+    }}
+@media (max-width: 1024px){
+    div {
+        width: 45%;
+
+    }
+}
+@media (max-width: 736px){
+    div {
+        width: 100%;
+    }
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover {
+    text-decoration: underline;
+}
+img {
+    width: 100%;
+
+}
