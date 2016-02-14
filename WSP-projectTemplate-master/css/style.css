@@ -15,8 +15,8 @@ html {
     text-decoration: none;
     font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     line-height: 1.5;
-    background-color: #EAEBDE;
-    color: #3F4360;
+    background-color: #2b44c3;
+    color: #0e111a;
 
 }
 
@@ -48,36 +48,37 @@ p {
     font-size: 1rem;
 }
 article p {
-    color: #DFE3E8;
+    color: #d1264b;
 }
 article h4 {
-    color: #CCCFD9;
+    color: #2b44c3;
 }
 body {
-    background-color: #DFE3E8;
+    background-color: #d1264b;
     padding: 2rem;
 }
 header {
-    background-color: #3F4360;
+    background-image: url(../images/otis.jpg);
+    height: 30rem;
     padding: 2rem;
     margin-bottom: 2rem;
-    color: #DFE3E8;
+    color: #d1264b;
 }
 section {
-    background-color: #A69EBC;
+    background-color: #d1264b;
     padding: 2rem;
     margin-bottom: 2rem;
 }
 section:nth-child(n) {
-    background-color: #CCCFD9;
+    background-color: #fff;
 }
 article {
-    background-color: #897697;
+    background-color: #c3b8c8;
     padding: 2rem;
     margin-bottom: 2rem;
 }
 .featured{
-    border: .5rem solid #EAEBDE;
+    border: .5rem solid #2b44c3;
 }
 
 li {
@@ -91,7 +92,7 @@ li:nth-child(even) {
 }
 
 a {
-    background-color: #EAEBDE;
+    background-color: #2b44c3;
     padding: 1rem;
     margin-top: 2rem;
     text-decoration: none;
@@ -99,10 +100,10 @@ a {
     width: auto;
     text-align: center;
     font-weight: 700;
-    color: #3F4360;
+    color: #0e111a;
 }
 a:hover {
-    background-color: #3F4360;
+    background-color: #d1264b;
     color: #EAEBDE;
 }
 img {
