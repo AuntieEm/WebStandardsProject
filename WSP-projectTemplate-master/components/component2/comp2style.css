@@ -35,11 +35,10 @@ input {
     border-right: none;
     padding: 1rem;
 }
-button {
+#button {
     float: right;
     background: url(../../images/search.png) no-repeat center center;
     height: 3.5rem;
     width: 3.5rem;
     border: none;
-
 }
