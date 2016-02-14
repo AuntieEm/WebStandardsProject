@@ -1,3 +1,84 @@
 /*Emily Davis*/
 /*February 7, 2016*/
 /*Component 5 Style Sheet*/
+
+html {
+    min-width: 1040px;
+    text-align: center;
+    background-color: #deded5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    width: 960px;
+    margin: 0 auto;
+}
+body section {
+    background-color: #fff;
+}
+section {
+    text-align: center;
+    padding: 2rem;
+    margin: 0;
+}
+div {
+    display: inline-table;
+    width: 20%;
+    text-align: left;
+}
+h2 {
+    font-family: cursive;
+    color: #ec4f3b;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+    color: #ec4f3b;
+}
+li a{
+    color: #deded5;
+    font-weight: 100;
+}
+ul {
+    list-style-type: none;
+    display: inline;
+    line-height: 2rem;
+
+}
+#top {
+    color: #deded5;
+    background-color: #535353;
+}
+#bottom {
+    text-align: left;
+    color: #deded5;
+    background-color: #454545;
+}
+#bottom a {
+    color: #deded5;
+}
+#bottom a:hover {
+    color: #ec4f3b;
+}
+img {
+    padding: .25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+input {
+    font-size: 1rem;
+    padding: 1rem;
+    color: #deded5;
+    background-color: transparent;
+    border: #deded5 1px solid;
+}
+
+
+.submit {
+    background-color: #ec4f3b;
+    border: none;
+
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 400;
+
+}
