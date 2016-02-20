@@ -15,6 +15,7 @@ h1 {
     border: #3d3d3d solid .2rem;
     font-family: "Cookie", cursive;
     line-height: 60px;
+    margin-left: 2rem;
 
 }
 
@@ -85,4 +86,22 @@ a {
 .active a{
     color: #f7941d;
     text-decoration: underline;
+}
+
+nav ul li:last-child a {
+    background: url(../../images/search_black.png) no-repeat center center ;
+    color: transparent;
+    background-size: 1.5rem;
+
+}
+nav ul ul li:last-child a{
+    background-image: none;
+    color: #fff;
+    background: #494949;
+    text-transform: capitalize;
+}
+nav ul ul li:last-child a:hover{
+    background: #b0b0b0;
+    color: #3d3d3d;
+    text-decoration: none;
 }
