@@ -8,19 +8,20 @@ html {
     background-color: #deded5;
     font-family: Arial, Helvetica, sans-serif;
 }
-body {
-    width: 960px;
+body{
+    width: 100%;
     margin: 0 auto;
 }
-body section {
+h1 {
     background-color: #fff;
+    margin: 0;
 }
-section {
+footer {
     text-align: center;
     padding: 2rem;
     margin: 0;
 }
-div {
+section {
     display: inline-table;
     width: 20%;
     text-align: left;
@@ -44,26 +45,27 @@ ul {
     line-height: 2rem;
 
 }
-#top {
+article {
     color: #deded5;
     background-color: #535353;
+    padding-top: 1rem;
 }
-#bottom {
+.copyright {
     text-align: left;
     color: #deded5;
     background-color: #454545;
+    margin: 0;
+    height: 2rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
-#bottom a {
+footer p:last-child a {
     color: #deded5;
 }
-#bottom a:hover {
+footer p:last-child a:hover {
     color: #ec4f3b;
 }
-img {
-    padding: .25rem;
-    width: 1.5rem;
-    height: 1.5rem;
-}
+
 input {
     font-size: 1rem;
     padding: 1rem;
@@ -71,14 +73,48 @@ input {
     background-color: transparent;
     border: #deded5 1px solid;
 }
-
-
 .submit {
     background-color: #ec4f3b;
     border: none;
-
     color: #fff;
     text-transform: uppercase;
     font-weight: 400;
 
+}
+
+section:nth-child(3) a:nth-child(2){
+    background: url(../../images/googleplus_color_shadow.png) no-repeat center center;
+    background-size: contain;
+    color: transparent;
+    display: inline-block;
+    padding: .5rem;
+
+}
+section:nth-child(3) a:nth-child(3) {
+    background: url(../../images/twitter_color_shadow.png) no-repeat center center;
+    background-size: contain;
+    color: transparent;
+    display: inline-block;
+    padding: .5rem;
+}
+section:nth-child(3) a:nth-child(4) {
+    background: url(../../images/facebook_color_shadow.png) no-repeat center center;
+    background-size: contain;
+    color: transparent;
+    display: inline-block;
+    padding: .5rem;
+}
+section:nth-child(3) a:nth-child(5) {
+    background: url(../../images/pintrest_color_shadow.png) no-repeat center center;
+    background-size: contain;
+    color: transparent;
+    display: inline-block;
+    padding: .5rem;
+}
+section:nth-child(3) a:nth-child(6) {
+    background: url(../../images/linkedin_color_shadow.png) no-repeat center center;
+    background-size: contain;
+    color: transparent;
+    display: inline-block;
+    padding: .5rem;
 }

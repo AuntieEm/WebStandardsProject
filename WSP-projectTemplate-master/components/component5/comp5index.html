@@ -5,9 +5,9 @@
     <link rel="stylesheet" type="text/css" href="comp5style.css" />
 </head>
 <body>
-<section>
+
     <h1>Main Content</h1>
-</section>
+
 <!--I viewed the whole thing as the footer, but apparently the bottom section was actually the footer.-->
 <!--broken anchor tags-->
 <!--use a paagrap for the bottom section. make the whole thing the footer-->
@@ -17,12 +17,15 @@
 <!--Lots of <divs>. I did a footer as well and had to think of that as one section of the website that is full of
 smaller sections of information. The colors match up well but font sizing, spacing and formatting are off from the
 original. -->
+
+<!--removed divs and used sections instead. All contained inside footer tag. removed image tags and inserted via css.-->
+
 <footer>
-    <section id="top">
-        <div>
+    <article>
+        <section>
             <h2><a href="#">Cat Lovers</a></h2>
-        </div>
-        <div>
+        </section>
+        <section>
             <h3><a href="#">About Us</a></h3>
             <ul>
                 <li><a href="#">Cats for sale</a></li>
@@ -30,29 +33,28 @@ original. -->
                 <li><a href="#">Contacts</a></li>
                 <li><a href="#">Blog</a></li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section>
             <h4>Follow Us</h4>
-                <a href="https://plus.google.com/"><img src="../../images/googleplus_color_shadow.png" alt="Google Plus"/></a>
-                <a href="https://twitter.com/?lang=en"><img src="../../images/twitter_color_shadow.png" alt="Twitter"/></a>
-                <a href="https://www.facebook.com/?ref=tn_tnmn"><img src="../../images/facebook_color_shadow.png" alt="Facebook"/></a>
-                <a href="https://www.pinterest.com/"><img src="../../images/pintrest_color_shadow.png" alt="Pinterest"/></a>
-                <a href="http://www.linkedin.com/"><img src="../../images/linkedin_color_shadow.png" alt="LinkedIn"/></a>
-
-        </div>
-        <div>
+            <a href="https://www.plus.google.com">Google Plus</a>
+            <a href="https://www.twitter.com">Twitter</a>
+            <a href="https://www.facebook.com">Facebook</a>
+            <a href="https://www.pinterest.com">Pinterest</a>
+            <a href="http://www.linkedin.com">LinkedIn</a>
+        </section>
+        <section>
             <h4>Newsletter:</h4>
             <form>
                 <p><input type="text" value="Name"></p>
                 <p><input type="email" value="Email"></p>
                 <p><input type="submit" value="Sign Up >>" class="submit"</p>
             </form>
-        </div>
-    </section>
-    <section id="bottom">
-        <p>Cat Lovers Theme &copy 2013 <a href="#">Privacy Policy<a/></p>
-    </section>
+        </section>
+    </article>
+        <p class="copyright">Cat Lovers Theme &copy 2013 <a href="#">Privacy Policy</a></p>
 </footer>
+
+
 
 </body>
 </html>
