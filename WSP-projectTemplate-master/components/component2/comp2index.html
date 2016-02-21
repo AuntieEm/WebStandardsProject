@@ -12,10 +12,11 @@ alignment between your logo and search feature are also off with the search feat
 search feature itself is larger than the original. There is a border on yours that I am not seeing on the original. The
 word submit is visible over the image you used for the search icon as well as there being a border on focus that the
 original component does not have. Code is clean.-->
+
+<!--fixed size of logo. used font for h1 and a background image for the logo instead. fixed size and border of search box. the word submit is transparent now.-->
 <body>
     <header>
-        <h1><a><img src="../../images/paw_logo.png" alt="Pet Store"></a></h1>
-        <!-- Yes I used an image here. There was not a font specified for this. The site used an image instead.-->
+        <h1>Pet Store</h1>
         <form action="search/search.php" method="GET" accept="charset="utf-8">
         <input type=text value="Search" onblur="if(this.value == ''){this.value='Search'}" onfocus="if (this.value='Search') {this.value=''}">
         <input id="button" type="submit">

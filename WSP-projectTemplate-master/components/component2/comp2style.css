@@ -15,30 +15,30 @@ h1{
     padding: 2rem;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: transparent;
+    background: url(../../images/paw_logo.png) no-repeat center center;
+    background-size: 15rem;
+    margin-left: 4rem;
 }
-img {
-    height: 4rem;
-}
+
 form {
     float: right;
     padding: 2rem;
-    height: 4rem;
 }
 input {
-    width: 20rem;
-    color: #82938b;
+    width: 15rem;
+    height: 3.5rem;
+    padding-left: 1rem;
     font-size: 1rem;
-    float: left;
-    border-color: #f1f1f1;
-    background-color: #fff;
-    border-right: none;
-    padding: 1rem;
+    color: #82938b;
+    border: none;
 }
-header input .submit {
+
+#button {
     float: right;
     background: url(../../images/search.png) no-repeat center center;
     height: 3.5rem;
     width: 3.5rem;
     border: none;
+    color: transparent;
 }
