@@ -2,9 +2,88 @@
 ============================================================
 ============================================================*/
 
+/*
+lightest blue  rgb(238,238, 247) #eeeef7
+light blue 	 rgb(219, 219, 238) #dbdbee
+medium blue rgb(158, 157, 203) #9e9dcb
+dark blue rgb(90, 87, 122) #5a577a
+dark green rgb(55, 62, 64) #373e40
+medium green rgb(120, 131, 105) #788369
+*/
+
+body{
+	max-width: 1020px;
+	margin: 0 auto;
+	font-family: arial;
+	font-size: 1rem;
+	background-color: #eeeef7;
+	color: #373e40;
+}
+
+h1{
+	font-size: 3rem;
+	padding-bottom: 3rem;
+	font-weight: 900;
+}
+h2{
+	font-size: 2.5rem;
+	padding-bottom: 2.5rem;
+	font-weight: 800;
+	text-align: center;
+}
+h3{
+	font-size: 2rem;
+	padding-bottom: 2rem;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: underline;
+}
+h4{
+	font-size: 1.5rem;
+	padding-bottom: 1.5rem;
+	font-weight: 600;
+}
+p {
+	padding-bottom: 2rem;
+}
+
 
 /* HEADER ============================== */
 
+header {
+	padding: 2rem;
+	text-align: center;
+}
+
 /* ABOUT ============================== */
 
+section:nth-child(2){
+	background-color: #dbdbee;
+	padding: 2rem;
+}
+
 /* COMPONENTS ============================== */
+
+section {
+	background-color: #dbdbee;
+	padding: 2rem;
+}
+
+article {
+	background-color: #9e9cdb;
+	padding: 2rem;
+	margin: 1rem;
+}
+article:nth-child(5){
+	border: 1em solid #788369;
+}
+a{
+	background: #eeeef7;
+	text-decoration: none;
+	color: #5a577a;
+	padding: 1rem;
+}
+a:hover{
+	background-color: #788369;
+	color: #eeeef7;
+}
