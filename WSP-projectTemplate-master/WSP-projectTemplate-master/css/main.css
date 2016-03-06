@@ -77,6 +77,9 @@ article {
 article:nth-child(5){
 	border: 1em solid #788369;
 }
+ol{
+	padding-bottom: 2rem;
+}
 a{
 	background: #eeeef7;
 	text-decoration: none;
@@ -86,4 +89,9 @@ a{
 a:hover{
 	background-color: #788369;
 	color: #eeeef7;
+	font-weight: 800;
+}
+img{
+	width: 100%;
+	padding-bottom: 2rem;
 }
