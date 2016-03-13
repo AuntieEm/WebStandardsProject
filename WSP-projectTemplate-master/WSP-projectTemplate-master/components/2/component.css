@@ -2,3 +2,61 @@
 ============================================================
 ============================================================*/
 
+section {
+	background: url(../../images/parallax1.jpg) center center no-repeat;
+	position: relative;
+	overflow: hidden;
+	padding-top: 50rem;
+	padding-bottom: 52rem;
+	text-align: center;
+}
+
+
+h1 {
+	color: #fff;
+	font-size: 6rem;
+	font-family: "Montserrat", sans-serif;
+	line-height: 1;
+	margin-top: 3rem;
+}
+
+h2 {
+	color: #a9cf54;
+	font-size: 2rem;
+	font-family: "Slabo", serif;
+	padding-top: 2rem;
+}
+
+form {
+	margin-top: 2rem;
+}
+
+input{
+	display: inline-block;
+	cursor: auto;
+	padding: 1rem;
+}
+
+input:nth-child(1){
+	height: 5rem;
+	font-size: 1.25rem;
+	width: 20rem;
+	padding: 0 2rem 0 2rem;
+	vertical-align: top;
+	background-color: #fff;
+	color: #bbc2c7;
+	border-radius: .25rem;
+}
+input:nth-child(2){
+	height: 5rem;
+	font-size: 1.5rem;
+	border-radius: .25rem;
+	background-color: #a9cf54;
+	color: #fff;
+	margin-left: 1rem;
+}
+
+input:nth-child(2):hover{
+	background-color:#51545a;
+	color: #a9cf54;
+}
