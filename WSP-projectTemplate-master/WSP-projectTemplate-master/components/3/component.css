@@ -21,11 +21,12 @@ article{
 	
 }
 h1{
-	font-size: 2rem;
+	font-size: 3rem;
 	line-height: 2.5rem;
 	letter-spacing: 1.1rem;
 	margin: 3rem 0 3rem 0;	
 	font-family: 'Open Sans Condensed', sans-serif;
+	color: #111111;
 }
 h3{
 	font-family: 'Open Sans Condensed', sans-serif;
@@ -46,21 +47,19 @@ p{
 figure{
 	margin: 0 0 2rem 0;
 	position: relative;
-	
-	
 }
 
+
 figcaption{
-/* 	position: absolute; */
-/* 	left: 0 */;
-/* 	bottom: 100%; */
-/* 	right: 0; */
 	font: 1.1rem 'Open Sans Condensed', sans-serif;
 	text-align: center;
 	color: #bdc3c7;
 	text-shadow: 1px 0 #bdc3c7;
-/* 	margin-bottom: -5px; */
 	letter-spacing: 8px;
+}
+figure:hover{
+	color: #0085a0;
+	text-shadow: 1px 0 #0085a0;
 }
 
 img{
@@ -69,6 +68,9 @@ img{
 	max-width: 100%;
 	box-sizing: border-box;
 	vertical-align: middle;
+}
+img:hover{
+	border: 2px solid #0085a0;
 }
 
 button{
