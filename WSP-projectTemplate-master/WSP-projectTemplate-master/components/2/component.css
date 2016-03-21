@@ -1,9 +1,14 @@
 /* Component Stylesheet 
 ============================================================
 ============================================================*/
+body{
+	
+	margin: 0 auto;
+	max-width: 100%;
+}
 
 section {
-	background: url(../../images/parallax1.jpg) center center no-repeat;
+	background: url(../../images/parallax1.jpg) center center no-repeat fixed;
 	position: relative;
 	overflow: hidden;
 	padding-top: 50rem;
@@ -14,16 +19,17 @@ section {
 
 h1 {
 	color: #fff;
-	font-size: 6rem;
+	font-size: 4rem;
 	font-family: "Montserrat", sans-serif;
 	line-height: 1;
-	margin-top: 3rem;
+	margin: 0 auto;
+	max-width: 75%;
 }
 
 h2 {
 	color: #a9cf54;
 	font-size: 2rem;
-	font-family: "Slabo", serif;
+	font-family: "Slabo 13px", serif;
 	padding-top: 2rem;
 }
 
@@ -35,6 +41,9 @@ input{
 	display: inline-block;
 	cursor: auto;
 	padding: 1rem;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 300;
+	
 }
 
 input:nth-child(1){
