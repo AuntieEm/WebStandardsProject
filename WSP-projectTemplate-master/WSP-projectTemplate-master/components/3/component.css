@@ -2,6 +2,31 @@
 ============================================================
 ============================================================*/
 
+@media (max-width: 1020px) {
+	article{
+		width: 30%;
+		margin: 0 auto;
+		display: inline-block;
+		margin: 0 .5rem 1rem .5rem;
+		vertical-align: top;
+	}
+}
+
+@media (max-width: 700px){
+
+	article{
+		width: 75%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 500px){
+	article{
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
 body {
 	max-width: 100%
 	margin: 0 auto;
@@ -13,13 +38,7 @@ body {
 }
 
 
-article{
-	max-width: 30%;
-	display: inline-block;
-	margin: 0 .5rem 1rem .5rem;
-	vertical-align: top;
-	
-}
+
 h1{
 	font-size: 3rem;
 	line-height: 2.5rem;
@@ -47,6 +66,8 @@ p{
 figure{
 	margin: 0 0 2rem 0;
 	position: relative;
+	width: 90%;
+
 }
 
 
