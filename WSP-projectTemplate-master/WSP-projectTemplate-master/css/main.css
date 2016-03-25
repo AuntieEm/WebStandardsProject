@@ -99,10 +99,20 @@ img{
 
 /* ANIMATION ============================== */
 
-@keframes stretch{
-
+.animation{
+	animation: pulse 5s infinite;
 }
 
+@keyframes pulse {
+	0% {
+		background-color: #001f3f;
+	}
+	100%{
+		background-color: #ff4136;
+	}
+}
+
+@keframes stretch{
 .animation{
 	animation-name: stretch;
 	animation-duration: 1.5s;
@@ -112,5 +122,9 @@ img{
 	animation-iteration-count: infinite;
 	animation-fill-mode: none;
 	animation-play-state: running;
-{
+}
+
+}
+
+
 
