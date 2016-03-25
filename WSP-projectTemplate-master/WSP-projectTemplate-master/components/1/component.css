@@ -83,9 +83,9 @@ nav ul ul ul li a:hover {
 
 
 img {
-	height: 8rem;
-	padding-left: 2rem; 
-	padding-top: 2rem; 
+	height: 10rem;
+	padding-left: 4rem; 
+	padding-top: 4rem; 
 }
 
 form{
@@ -97,7 +97,7 @@ form{
 input:nth-child(1){
 	background: url(../../images/mobi-search.jpg) center right no-repeat;
 	background-color: #f7f6f7; /* light grey */
-	height: 3rem;
+	height: 1rem;
 	width: 17rem;	
 	padding: 2rem;
 	margin: 0rem 2rem 5rem 5rem;
@@ -112,6 +112,7 @@ input:nth-child(2){
 	background-color: #a9cf54; /* green */
 	border-radius: .25rem;
 	text-align: center;
+	margin-right: 4rem;
 }
 input:nth-child(2):hover {
 	background-color: #51545a; /* dark grey */
