@@ -11,9 +11,10 @@ section {
 	background: url(../../images/parallax1.jpg) center center no-repeat fixed;
 	position: relative;
 	overflow: hidden;
-	padding-top: 50rem;
-	padding-bottom: 52rem;
+	padding-top: 20rem;
+	padding-bottom: 20rem;
 	text-align: center;
+
 }
 
 
