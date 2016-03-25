@@ -101,6 +101,7 @@ img{
 
 .animation{
 	animation: pulse 5s infinite;
+	margin-top: 5rem;
 }
 
 @keyframes pulse {
@@ -112,8 +113,11 @@ img{
 	}
 }
 
-@keframes stretch{
-.animation{
+.animation2{
+	height: 250px;
+	width: 250px;
+	margin: 0 auto;
+	background-color: red;
 	animation-name: stretch;
 	animation-duration: 1.5s;
 	animation-timing-function: ease-out;
@@ -123,8 +127,28 @@ img{
 	animation-fill-mode: none;
 	animation-play-state: running;
 }
-
+@keyframes stretch{
+	0% {
+		transform: scale(.3);
+		background-color: red;
+		border-radius: 100%;
+	}
+	50%{
+		background-color: orange;
+	}
+	100%{
+		transform: scale(1.5);
+		background-color: yellow;
+	}
 }
+
+.animation2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5rem;
+}
+
 
 
 
