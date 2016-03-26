@@ -45,6 +45,7 @@ h1{
 	font-weight: 600;
 	text-transform: uppercase;
 	margin-bottom: 1rem;
+	margin-top: 2rem;
 }
 
 p {
@@ -91,15 +92,19 @@ img {
 
 section:nth-child(4) a{
 	color: transparent;	
-	width: 2.25rem;
-	height: 2.25rem;
+	height: 2.5rem;
+	width: 2.5rem;
 	background-color: #2d2e2e;
-	/* display: inline; */
+	display: inline-block;
+	vertical-align: top;
+	margin-right: .5rem;
 }
+
 
 .facebook{
 	background: url(../../images/facebook-6a6d70.png) center center no-repeat;
-}
+	
+}	
 .twitter{
 	background: url(../../images/twitter-6a6d70.png) center center no-repeat;
 }
